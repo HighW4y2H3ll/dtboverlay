@@ -1,4 +1,4 @@
-obj-m += dtboverlay_out.o ofcheck.o
+obj-m += dtboverlay_out.o ofcheck.o kdbg.o
 dtboverlay_out-objs := dtboverlay.o libfdt/fdt.o
 
 all:
